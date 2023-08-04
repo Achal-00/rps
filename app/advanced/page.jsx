@@ -178,47 +178,47 @@ const page = () => {
           className="scissors"
           onClick={scissorHandler}
         >
-          <img src="/images/icon-scissors.svg" alt="scissors" />
+          <img src="icon-scissors.svg" alt="scissors" />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3 }}
           className="rock"
           onClick={rockHandler}
         >
-          <img src="/images/icon-rock.svg" alt="rock" />
+          <img src="icon-rock.svg" alt="rock" />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3 }}
           className="paper"
           onClick={paperHandler}
         >
-          <img src="/images/icon-paper.svg" alt="paper" />
+          <img src="icon-paper.svg" alt="paper" />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3 }}
           className="spock"
           onClick={spockHandler}
         >
-          <img src="/images/icon-spock.svg" alt="paper" />
+          <img src="icon-spock.svg" alt="paper" />
         </motion.div>
         <motion.div
           whileHover={{ scale: 1.3 }}
           className="lizard"
           onClick={lizardHandler}
         >
-          <img src="/images/icon-lizard.svg" alt="paper" />
+          <img src="icon-lizard.svg" alt="paper" />
         </motion.div>
       </div>
       <div className="next-step">
         <div className="player">
           <div className={selected}>
-            <img src={`/images/icon-${selected}.svg`} alt="selected" />
+            <img src={`icon-${selected}.svg`} alt="selected" />
           </div>
           <p>YOU PICKED</p>
         </div>
         <div className="house">
           <div className={house} id="house">
-            <img src={`/images/icon-${house}.svg`} alt="selected" />
+            <img src={`icon-${house}.svg`} alt="selected" />
           </div>
           <p>THE HOUSE PICKED</p>
         </div>
@@ -235,9 +235,9 @@ const page = () => {
         </button>
         <dialog>
           <div className="dialog-normal">
-            <img src="/images/image-rules-bonus.svg" alt="rules" />
+            <img src="image-rules-bonus.svg" alt="rules" />
             <button type="button" className="dialog-btn" onClick={dialogClose}>
-              <img src="images/icon-close.svg" alt="close" />
+              <img src="icon-close.svg" alt="close" />
             </button>
           </div>
         </dialog>
